@@ -4,16 +4,10 @@ using TechTalk.SpecFlow;
 namespace AcceptanceTest.SpecFlow.Playwright.StepDefinitions
 {
     [Binding]
-    public class MyExampleStepDefinitions
+    public class PokemonSearchStepDefinitions
     {
         [Given("Given a navigate to {string}")]
         public void GivenGivenANavigateTo(string p0)
-        {
-            throw new PendingStepException();
-        }
-
-        [When("I click in the search bar")]
-        public void WhenIClickInTheSearchBar()
         {
             throw new PendingStepException();
         }
