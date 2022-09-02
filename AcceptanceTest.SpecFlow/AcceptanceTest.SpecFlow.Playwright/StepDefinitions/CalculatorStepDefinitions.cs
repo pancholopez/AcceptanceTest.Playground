@@ -9,13 +9,13 @@ namespace AcceptanceTest.SpecFlow.Playwright.StepDefinitions
         private readonly Calculator _calculator = new Calculator();
         private int _result;
 
-        [Given("the first number is (.*)")]
+        [Given("the first number is {int}")]
         public void GivenTheFirstNumberIs(int number)
         {
             _calculator.FirstNumber = number;
         }
 
-        [Given("the second number is (.*)")]
+        [Given("the second number is {int}")]
         public void GivenTheSecondNumberIs(int number)
         {
             _calculator.SecondNumber = number;
@@ -27,7 +27,7 @@ namespace AcceptanceTest.SpecFlow.Playwright.StepDefinitions
             _result = _calculator.Add();
         }
 
-        [Then("the result should be (.*)")]
+        [Then("the result should be {int}")]
         public void ThenTheResultShouldBe(int result)
         {
             Assert.AreEqual(result, _result);
