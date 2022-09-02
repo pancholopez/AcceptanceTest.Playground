@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTest.SpecFlow.Playwright", "AcceptanceTest.SpecFlow.Playwright\AcceptanceTest.SpecFlow.Playwright.csproj", "{55BA00B1-735B-4534-967C-9F6DE75B9145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTest.ClassLibrary", "..\AcceptanceTest.ClassLibrary\AcceptanceTest.ClassLibrary.csproj", "{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55BA00B1-735B-4534-967C-9F6DE75B9145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BA00B1-735B-4534-967C-9F6DE75B9145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BA00B1-735B-4534-967C-9F6DE75B9145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BA00B1-735B-4534-967C-9F6DE75B9145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23DB54F7-9A5C-4850-B2AF-3D0AEFCF7F2D}
+	EndGlobalSection
+EndGlobal
