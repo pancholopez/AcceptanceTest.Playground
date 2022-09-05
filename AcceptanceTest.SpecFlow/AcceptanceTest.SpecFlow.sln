@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTest.SpecFlow.Playwright", "AcceptanceTest.SpecFlow.Playwright\AcceptanceTest.SpecFlow.Playwright.csproj", "{55BA00B1-735B-4534-967C-9F6DE75B9145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcceptanceTest.SpecFlow.Playwright", "AcceptanceTest.SpecFlow.Playwright\AcceptanceTest.SpecFlow.Playwright.csproj", "{55BA00B1-735B-4534-967C-9F6DE75B9145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTest.ClassLibrary", "..\AcceptanceTest.ClassLibrary\AcceptanceTest.ClassLibrary.csproj", "{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcceptanceTest.ClassLibrary", "..\AcceptanceTest.ClassLibrary\AcceptanceTest.ClassLibrary.csproj", "{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{3F11EAD6-A433-4C4B-8341-EB93450E63F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85DDC0D1-04DB-4EF6-BF23-0F0C0B0CE43F} = {3F11EAD6-A433-4C4B-8341-EB93450E63F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23DB54F7-9A5C-4850-B2AF-3D0AEFCF7F2D}
